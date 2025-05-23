@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Register Form</legend>
+      <table>
+        <form action="" method="get" autocomplete="on">
+          <tr>
+            <td>
+              <sup>*</sup><label for="">Name:</label>
+              <input type="text" value="Om" autofocus />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Password :
+              <input
+                type="password"
+                minlength="8"
+                maxlength="12"
+                required
+                style="border: 2px solid red"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email">Email:</label>
+              <input type="email" placeholder="john@gmail.com" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="tel">Phone:</label>
+              <input type="tel" readonly value="5678907" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+                <label for="gen">Gender:</label>
+                <input type="radio" name="gen" checked>Male
+                <input type="radio" name="gen">Female
+                <input type="radio" name="gen">Others
+            </td>
+          </tr>
+
+           <tr>
+            <td>
+                <label for="hob">Hobbies:</label>
+                <input type="checkbox" name="hob" >Singing
+                <input type="checkbox" name="hob">Dancing
+                <input type="checkbox" name="hob">Playing
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+                <label for="cou">Courses</label>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">MCA</option>
+                    <option value="">BCA</option>
+                    <option value="">BTECH</option>
+                </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+                <label for="cou1">Courses1</label>
+                <input list="course1">
+                <datalist name="" id="course1">
+                    <option value=""></option>
+                    <option value="MCA">MCA</option>
+                    <option value="BCA">BCA</option>
+                    <option value="BTECH">BTECH</option>
+                </datalist>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td>
+                File: <input type="file">
+            </td>
+          </tr>
+
+
+          <tr>
+            <td><button>Submit</button></td>
+          </tr>
+        </form>
+      </table>
+    </fieldset>
+  </body>
+</html>

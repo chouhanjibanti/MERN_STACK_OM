@@ -14,3 +14,8 @@ div and span
 div takes entire with of web page 
 span particular content of width
 
+HTML list:-
+ol ->order list
+ul -> unordered list
+dl -> descritpion list
+
