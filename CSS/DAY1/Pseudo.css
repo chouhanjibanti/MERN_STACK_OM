@@ -1,0 +1,39 @@
+/* h1::first-line{
+    color: red;
+}
+
+p::first-letter{
+    color: red;
+} */
+
+
+div::before{
+    content: url("./images/download.webp");
+}
+
+div::after{
+        content: url("./images/download.webp");
+}
+
+li::marker{
+    content: "❤️";
+}
+
+li+li::marker{
+    content: "🤣";
+}
+li+li+li::marker{
+    content: "❌";
+}
+li+li+li+li::marker{
+    content: "🚀";
+}
+li+li+li+li+li::marker{
+    content: "🤷‍♂️";
+}
+
+h3::selection{
+    color: red;
+}
+
+/* pseudo class selctor */

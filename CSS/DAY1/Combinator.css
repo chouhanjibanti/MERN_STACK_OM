@@ -1,0 +1,23 @@
+/* descendent selector [space ]*/
+
+/* div h1{
+    color: red;
+} */
+
+/* child selector [>] */
+/* div > h1{
+    color: purple;
+} */
+
+/* adjecent selector [+] */
+
+/* div+h1{
+    color: green;
+} */
+
+/* general siblings [~] */
+
+div~h1{
+    border: 2px solid;
+    color: pink;
+}
