@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        /* flex-direction   row , column
+        flex-wrap wrap , nowrap
+        flex-flow  combination of direction and wrap
+        justify content  start , end , center
+        align-item  start , end , center*/
+
+        /* order , flex-grow ,flex-shrink ,flex-basis  */
+
+
+        .container{
+            border: 2px solid;
+            height: 400px;
+            display: flex;
+
+          gap: 10px;
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+
+            /* flex-wrap: wrap; */
+            /* flex-wrap: nowrap; */
+ 
+             /*  shorthand property */
+            /* flex-flow: wrap row;
+            flex-flow: wrap column; */
+
+            /* justify-content: start; */
+            /* justify-content: end; */
+            /* justify-content: center; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-between; */
+        }
+        .box{
+            border: 1px solid;
+            width: 80px;
+            height: 19px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">BOX-1</div>
+        <div class="box" id="box2">BOX-2</div>
+        <div class="box" id="box3">BOX-3</div>
+        <div class="box" id="box4">BOX-4</div>
+        <div class="box" id="box5">BOX-5</div>
+        <div class="box" id="box6">BOX-6</div>
+        <div class="box" id="box7">BOX-7</div>
+        <div class="box" id="box8">BOX-8</div>
+    </div>
+
+        <!-- div.container>div.box#box$*8{BOX-$} -->
+
+</body>
+</html>
