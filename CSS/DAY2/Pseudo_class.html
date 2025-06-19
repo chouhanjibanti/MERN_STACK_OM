@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link {
+            color: red;
+            background-color: yellow;
+        }
+
+        a:active {
+            color: pink;
+            background-color: purple;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        input[type="checkbox"]:checked{
+            height: 200px;
+            width: 200px;
+            accent-color: red;
+            /* background-color: red; */
+        }
+
+        input[type="radio"]:checked{
+            height: 100px;
+            width: 100px;
+            accent-color: red;
+        }
+
+        input[type="text"]:focus{
+            background-color: yellow;
+            height: 100px;
+            width: 100px;
+            color: red;
+        }
+
+        button:hover{
+            background-color: red;
+            transition-duration: 1s;
+            border-radius: 5px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <!-- <a href="https://www.youtube.com" target="_blank">click for youtube</a> <br> -->
+
+    <label for="hob">Hobbies: </label>
+    <input type="checkbox" name="hob">Dancing
+    <input type="checkbox" name="hob">playing
+ <br><br>
+
+    <label for="gen">Gender :</label>
+    <input type="radio" name="gen">Male
+    <input type="radio" name="gen">Female
+    <input type="radio" name="gen">Other
+<br>
+    Address: <input type="text"> <br>
+
+    <button type="button">Submit</button>
+</body>
+
+</html>

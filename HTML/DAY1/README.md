@@ -1,21 +1,8 @@
-HTML -> HYPER TEXT MARKUP LANGUAGE
+HTML :- hyper text markup language
 
-pair tag  -> html , head , title , body , h , p , div
-unpair tag  -> img , a , meta
+tags 
+heading tag h
+paragraph
 
-
-static page and dynamic page
-
-SPA single page application 
-MPA multi page application
-
-div and span
-
-div takes entire with of web page 
-span particular content of width
-
-HTML list:-
-ol ->order list
-ul -> unordered list
-dl -> descritpion list
-
+pair tag  
+unpair tag

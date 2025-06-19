@@ -4,16 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./Combinator.css">
+
+    <style>
+        /* descendent selector */
+
+        /* div h1{
+            color: red;
+            background-color: pink;
+        } */
+
+        /* child selector */
+        /* div>h1{
+            background-color: yellow;
+            border: 1px solid salmon;
+        } */
+
+        /* adjecent selector */
+        /* div+h1{
+              color: red;
+        } */
+
+        /* general sibling selrctor */
+        div~h1{
+            color: purple;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <h1>Indore</h1>
-        <h1>Ratlam</h1>
-        <h1>Debugshala</h1>
-        <span><h1>Jablpur</h1></span>
-    </div>
-    <h1>Omkareshwar</h1>
-    <h1>Ujjain</h1>
+    <!-- combinator selector -->
+
+    <!--  
+descendant selector (space) 
+child selector (>) 
+adjacent sibling selector (+) 
+general sibling selector (~)  -->
+
+   <div>
+    <h1>Indore</h1>
+    <h1>Ratlam</h1>
+    <h1>Debugshala</h1>
+    <span><h1>Jabalpur</h1></span>
+   </div>
+   <h1>omakreshwar</h1>
+   <h1>ujjian</h1>
+    
 </body>
 </html>

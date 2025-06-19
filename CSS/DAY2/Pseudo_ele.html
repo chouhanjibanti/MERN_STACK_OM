@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            color: red;
+        }
+
+        h1::first-letter{
+            background-color: purple;
+        }
+
+        p::before{
+            content: url("./images/virat.webp");
+        }
+
+        div::after{
+                        content: url("./images/virat.webp");
+
+        }
+
+        li::marker{
+            content: "🤣";
+        }
+
+        li + li::marker{
+            content: "🚀";
+        }
+         li + li + li::marker{
+            content: "❌";
+        }
+         li + li +li + li::marker{
+            content: "🎂";
+        }
+         li + li +li + li + li::marker{
+            content: "🙏";
+        }
+
+        h3::selection{
+            color: red;
+            background-color: yellow;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, praesentium!</h1>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur ipsa reprehenderit aliquam vero.
+        Adipisci molestiae non temporibus magni itaque corrupti velit eaque dolore. Atque corrupti modi doloribus rerum
+        minima ullam voluptatem, quo eum blanditiis cum placeat! Rem ipsam repudiandae suscipit, doloribus reprehenderit
+        quod eveniet mollitia optio dicta id ad laudantium velit quasi fugit recusandae. Minima, a eaque. Corporis,
+        consequatur?</p>
+
+    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni libero recusandae porro corrupti autem
+        doloremque vero dolore labore? Eveniet, voluptas!</div>
+
+    <ol>
+        <li>aman</li>
+        <li>debugshala</li>
+        <li>om</li>
+        <li>sarthak</li>
+        <li>sarthak</li>
+    </ol>
+
+    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste itaque, dignissimos sit fugit minus animi
+        dolorum! Ad, ea amet optio quod repellendus dignissimos adipisci recusandae, sed sapiente rem libero error iste
+        officia perferendis eligendi excepturi vel soluta consequuntur nisi dolore quis tenetur accusamus ipsa
+        architecto. Aliquid aperiam iure repellat adipisci asperiores repellendus amet optio similique perspiciatis
+        quaerat et aspernatur nostrum debitis, quasi provident placeat harum inventore nesciunt nam voluptate incidunt
+        modi quos? Deleniti blanditiis quisquam hic, distinctio suscipit ducimus aliquid illum veniam tempora a
+        assumenda excepturi omnis? Quam sapiente culpa minus numquam incidunt veritatis veniam, quos hic nulla
+        doloremque illo.</h3>
+</body>
+
+</html>

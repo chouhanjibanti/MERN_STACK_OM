@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: blueviolet;
+        }
+        .box{
+            background-color: green;
+            height: 250px;
+            width: 250px;
+            position: relative;
+            animation-name: sarthak;
+            animation-duration: 4s;
+            animation-delay: 3s;
+            /* animation-name: debugshala;
+            animation-duration: 2s; */
+
+            /* animation-iteration-count: 3; */
+            /* animation-iteration-count: infinite; */
+/* 
+            animation-fill-mode: forwards;
+            animation-fill-mode: alternate; */
+
+            /* animation-timing-function: ease-in; */
+            /* animation-timing-function: ease-out; */
+            /* animation-timing-function: ease-in-out; */
+
+            /* animation-delay: 2s; */
+
+            /* animation-direction: reverse;
+            animation-iteration-count: 3;
+            animation-direction: alternate-reverse; */
+
+            /* shorthand property */
+            /* animation: animation-name , animation-duration , animation-timing-function , animation-delay , animation-iteration-count , animation-fill-mode; */
+            /* animation: debugshala 3s ease-in-out 3s 4 backwards; */
+
+
+        }
+        @keyframes debugshala{
+            from{
+                 width: 250px;
+            }
+            to{
+                width: 1000px;
+            }
+        }
+
+        @keyframes sarthak{
+            /* 4s  -> 0% 25% 50% 75% 100% */
+            0%{
+               top: 0px;
+               left: 0px;
+            }
+            25%{
+                top: 250px;
+                left: 0px;
+            }
+            50%{
+                top: 250px;
+                left: 250px; 
+            }
+            75%{
+                background-color: pink;
+            }
+            100%{
+                top: 0px;
+                left: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

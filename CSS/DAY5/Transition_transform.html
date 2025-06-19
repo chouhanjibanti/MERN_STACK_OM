@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding-left: 200px;
+        }
+     .translate-box{
+        height: 100px;
+        width: 100px;
+        background-color: blueviolet;
+        transition: transform 3s;
+     }
+     .translate-box:hover{
+        transform: translate(50px,30px);
+     }
+
+     .scale-box{
+        height: 100px;
+        width: 100px;
+        
+        background-color: red;
+        transition: transform 5s;
+     }
+     .scale-box:hover{
+        transform: scale(1.9);
+     }
+     .rotate-box{
+        height: 100px;
+        width: 100px;
+        
+        background-color: green;
+        transition: transform 10s ease-in-out;
+
+     }
+     .rotate-box:hover{
+        transform: rotate(360deg);
+    }
+    .skew-box{
+        height: 100px;
+        width: 100px;
+        
+        background-color: yellow;
+        transition: transform 1s;
+
+    }
+    .skew-box:hover{
+        transform : skew(20deg,10deg)
+    }
+     .combined-box{
+        height: 100px;
+        width: 100px;
+        
+        background-color: purple;
+        transition: transform 0.5s;
+
+    }
+    .combined-box:hover{
+        transform: translate(50px,30px) scale(1.3) rotate(30deg) skew(30deg ,30deg);
+    }
+
+    </style>
+</head>
+<body>
+    <div class="translate-box">Translate</div> <br>
+
+    <div class="scale-box">Scale</div> <br>
+
+    <div class="rotate-box">Rotate</div> <br>
+
+     <div class="skew-box">Skew</div> <br>
+
+    <div class="combined-box">Combined box</div> <br>
+
+
+
+</body>
+</html>
+<!-- translate , scale , rotate , skew,combined -->

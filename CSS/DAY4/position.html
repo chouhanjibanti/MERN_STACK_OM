@@ -4,16 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./position.css">
+    <style>
+
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 2500px;
+            border: 1px solid;
+        }
+
+        .container1{
+            border: 1px solid;
+            height: 2000px;
+        }
+
+        img{
+            height: 300px;
+            width: 300px;
+        }
+        /* .img1{
+            position: static;
+            top: 100px;
+            left: 200px;
+        } */
+         /* .img2{
+            position: relative;
+            top: 100px;
+            left: 200px;
+         } */
+           /* .img2{
+            position: absolute;
+            top: 100px;
+            right: 50px;
+         } */
+          /* .img4{
+            position: fixed;
+          } */
+           .img4{
+            position: sticky;
+            top: 100px;
+           }
+    </style>
 </head>
 <body>
     <div class="container">
-        <img class="img1" src="./images/virat.jpg" alt="virat">
-        <img class="img2" src="./images/rohit.jpg" alt="rohit">
-        <img class="img3" src="./images/hardik.jpg" alt="hardik">
-        <img class="img4" src="./images/bhuvi.jpg" alt="bhuvi">
+        <img class="img1" src="./images/virat.webp" alt="virat">
+        <img class="img2" src="./images/rohit.jpeg" alt="rohit">
+        <img  class="img3"src="./images/hardik.jpeg" alt="hardik">
+        <img  class="img4" src="./images/bhuvi.jpeg" alt="bhuvi">
     </div>
-
-    <div class="container1"></div>
+    <div class="container1"> </div>
 </body>
 </html>

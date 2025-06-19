@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #demo{
-            background-color: pink;
+        /* internal css */
+        .demo {
+            color: yellow;
+            background-color: blueviolet;
         }
     </style>
-    <link rel="stylesheet" href="./Index.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <h1 style="border: 2px solid; color: red;">debugshala</h1>
+    <!-- inline css -->
+    <h1 style="border: 1px solid red;color: brown;background-color: aliceblue;">Debugshala</h1>
 
-    <p id="demo">Debugshala1</p>
+    /* internal css */
+    <p class="demo">sarthak and Aman</p>
 
-    <h2 class="c1">Omprakash</h2>
+
+    /* external css */
+    <h2 id="indore">indore</h2>
+
+    <!--  priority
+      inline > internal > external -->
+
+    <!-- id and class  -->
 </body>
+
 </html>
