@@ -1,7 +1,7 @@
 // Variable
 
 // scope
-// var ->  functional scope
+// var ->  functional/global scope
 // let  -> block scope
 // const -> block scope
 
