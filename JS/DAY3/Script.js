@@ -37,7 +37,7 @@
 // console.log(typeof a);
 
 // null 
-// let a = null;
+// let a = x;
 // console.log(a);
 // console.log(typeof a);
 
