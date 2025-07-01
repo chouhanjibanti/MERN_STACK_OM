@@ -22,9 +22,34 @@
 
 
 // 1. solution
-let sum = 0;
-for(let i=1;i<=5;i++){
-    // sum = sum +i; // 0+1 // 1+2 // 2+3
-    sum += i; 
+// let sum = 0;
+// for(let i=1;i<=5;i++){
+//     // sum = sum +i; // 0+1 // 1+2 // 2+3
+//     sum += i; 
+// }
+// console.log(sum);
+
+// Generate the first n Fibonacci numbers using a for loop, where n is provided by the user.
+
+
+// Answers:-
+
+// let n = prompt("Enter ")
+let n = 10;
+
+let a=0 , b =1;
+for(let i=0;i<n;i++){
+    console.log(a);
+    let temp = a+b; // 0+1 = 1
+    a = b;
+    b = temp;
 }
-console.log(sum);
+
+// 0 1 1 2 3 5 8
+
+// a = 0     b = 1
+// a =0      temp= 1    b = 1
+// a=1        b = 1    temp 1+1 =2
+// a = 1   b = 2         temp 1+2 = 3
+// a= 2     b = 3        temp 2+3 = 5
+// a=3   b=5      temp = 8
