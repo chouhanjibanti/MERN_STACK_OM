@@ -1,4 +1,4 @@
-hosting :-
+hoisting :-  Hoisting is a JavaScript mechanism where variable and function declarations are moved to the top of their scope (global or function scope) before the code is executed.
 
 demo()
 function demo(){

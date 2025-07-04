@@ -17,12 +17,6 @@ there are 2 types of datatype
 3. `sarthak`  -> backtick -> JS ES6
 
 
-In JS how many types of errors:-
-1. TypeError :- Assignment to constant variable
-2. Syntax Error :- wrong syntax
-3. reference Error :-  age is not defined
-4. Range Error :- arr[3] -> [1,2,3,4,5]
-
 
 
 Task :- based on the datatype and variable 

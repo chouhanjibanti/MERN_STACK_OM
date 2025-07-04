@@ -51,5 +51,48 @@
 // const c = 30;
 
 
+// ========================================
+
+// Scope 
+
+// var 
+
+// function testVar() {
+//   if (true) {
+//     var x = 10;
+//   }
+//   console.log(x); // ✅ 10 → `var` is function scoped, so it's accessible here
+// }
+
+// testVar();
+
+
+// let 
+
+// function testLet() {
+//   if (true) {
+//     let x = 10;
+//     console.log(x); // ✅ 10
+//   }
+//   console.log(x); // ❌ ReferenceError: x is not defined
+// }
+
+// testLet();
+
+
+
+// // const
+
+// function testConst() {
+//   if (true) {
+//     const x = 10;
+//     console.log(x); // ✅ 10
+//   }
+//   console.log(x); // ❌ ReferenceError: x is not defined
+// }
+
+// testConst();
+
+
 
 
