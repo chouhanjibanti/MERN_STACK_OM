@@ -153,6 +153,8 @@ let b = 20;
 
 console.log(a>b ? "a is greater" : "b is greater");
 
+// 
+
 
 
 
